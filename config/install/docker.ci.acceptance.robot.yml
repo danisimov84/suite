@@ -122,7 +122,7 @@ sections:
             command: 'vendor/bin/console setup:init-db'
 
         import-eu-region-demodata:
-            command: 'vendor/bin/console data:import --config=data/import/local/full_EU.yml'
+            command: 'vendor/bin/console data:import --config=data/import/local/full_DE.yml'
 
         apply-scheduled-prices:
             command: 'vendor/bin/console price-product-schedule:apply'
